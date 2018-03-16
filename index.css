@@ -4,7 +4,7 @@ html, button, input, select, textarea, label, textarea.copyable {
   font-weight: 200;
 }
 textarea.copyable {
-  font-size: 0.8em;
+  font-size: 0.8em !important;
 }
 body {
   color: rgb(90, 90, 90);
