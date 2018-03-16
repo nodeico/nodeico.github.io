@@ -3,6 +3,9 @@ html, button, input, select, textarea, label, textarea.copyable {
   font-size: 1em !important;
   font-weight: 200;
 }
+textarea.copyable {
+  font-size: 0.8em;
+}
 body {
   color: rgb(90, 90, 90);
   font-family: "amaranth", sans-serif;
