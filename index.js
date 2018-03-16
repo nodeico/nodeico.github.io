@@ -67,14 +67,15 @@
   
   function packageExists (pkg, callback) {
     $.ajax({
-        url: 'https://nodeico.herokuapp.com/' + pkg + '.svg'
+        url: 'https://unpkg.com/' + pkg + '/package.json'
+      , type: 'json'
       , method: 'get'
       , error: function () {
           callback && callback(false)
           callback = null
         }
       , success: function (resp) {
-          callback && callback(true)
+          callback && callback(resp.name == pkg)
           callback = null
         }
     })
