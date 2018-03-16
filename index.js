@@ -66,7 +66,6 @@
   }
   
   function packageExists (pkg, callback) {
-    return callback(true)
     $.ajax({
         url: 'https://unpkg.com/' + pkg + '/package.json'
       , type: 'json'
