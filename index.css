@@ -1,4 +1,4 @@
-html, button, input, select, textarea, label {
+html, button, input, select, textarea, label, textarea.copyable {
   font-family: "amaranth", sans-serif !important;
   font-size: 1em !important;
   font-weight: 200;
