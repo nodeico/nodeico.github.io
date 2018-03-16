@@ -1,0 +1,27 @@
+{
+  "name": "nodeico.github.io",
+  "version": "0.0.1",
+  "description": "Display info card image for NPM packages (scoped).",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodeico/nodeico.github.io.git"
+  },
+  "keywords": [
+    "node",
+    "card",
+    "npm",
+    "scoped",
+    "badge",
+    "image"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodeico/nodeico.github.io/issues"
+  },
+  "homepage": "https://github.com/nodeico/nodeico.github.io#readme"
+}
