@@ -107,11 +107,8 @@ code, .copyable {
   width: 123px;
   margin-right: -11px;
   top: 10px;
-  right: 40px;
-}
-#nodesource img {
-  margin-top: -100px;
+  right: 100px;
 }
 #nodesource p {
-  font-size: 12px;
+  font-size: 14px;
 }
