@@ -104,11 +104,10 @@ code, .copyable {
 #nodesource {
   position: absolute;
   text-align: center;
-  width: 180px;
   margin-right: -11px;
-  top: 10px;
   right: 100px;
+  top: 10px;
 }
 #nodesource p {
-  font-size: 14px;
+  font-size: 16px;
 }
