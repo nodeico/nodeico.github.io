@@ -68,7 +68,7 @@
   function packageExists (pkg, callback) {
     return callback(true)
     $.ajax({
-        url: 'https://registry.npmjs.org/' + encodeURIComponent(pkg)
+        url: 'https://unpkg.com/' + pkg + '/package.json'
       , type: 'json'
       , method: 'get'
       , error: function () {
