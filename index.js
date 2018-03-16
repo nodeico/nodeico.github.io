@@ -33,29 +33,29 @@
   
     , tmpl = {
           plain: {
-              img  : '<img src="/npm/{pkg}.png">'
-            , code : '<textarea class="copyable" readonly><a href="https://nodei.co/npm/{pkg}/"><img src="https://nodei.co/npm/{pkg}.png"></a></textarea>'
-                   + '<textarea class="copyable" readonly>[![NPM](https://nodei.co/npm/{pkg}.png)](https://nodei.co/npm/{pkg}/)</textarea>'
+              img  : '<a href="https://npmjs.com/package/{pkg}"><img src="https://nodeico.herokuapp.com/{pkg}.svg"></a>'
+            , code : '<textarea class="copyable" readonly><a href="https://npmjs.com/package/{pkg}"><img src="https://nodeico.herokuapp.com/{pkg}.svg"></a></textarea>'
+                   + '<textarea class="copyable" readonly>[![NPM](https://nodeico.herokuapp.com/{pkg}.svg)](https://npmjs.com/package/{pkg})</textarea>'
           }
         , 'all-options': {
               img  : '<img src="/npm/{pkg}.png{params}">'
-            , code : '<textarea class="copyable double" readonly><a href="https://nodei.co/npm/{pkg}/"><img src="https://nodei.co/npm/{pkg}.png{params}"></a></textarea>'
-                   + '<textarea class="copyable double" readonly>[![NPM](https://nodei.co/npm/{pkg}.png{params})](https://nodei.co/npm/{pkg}/)</textarea>'
+            , code : '<textarea class="copyable double" readonly><a href="https://npmjs.com/package/{pkg}"><img src="https://nodeico.herokuapp.com/{pkg}.svg{params}"></a></textarea>'
+                   + '<textarea class="copyable double" readonly>[![NPM](https://nodeico.herokuapp.com/{pkg}.svg{params})](https://npmjs.com/package/{pkg})</textarea>'
           }
         , compact: {
               img  : '<img src="/npm/{pkg}.png?compact=true">'
-            , code : '<textarea class="copyable" readonly><a href="https://nodei.co/npm/{pkg}/"><img src="https://nodei.co/npm/{pkg}.png?compact=true"></a></textarea>'
-                   + '<textarea class="copyable" readonly>[![NPM](https://nodei.co/npm/{pkg}.png?compact=true)](https://nodei.co/npm/{pkg}/)</textarea>'
+            , code : '<textarea class="copyable" readonly><a href="https://npmjs.com/package/{pkg}"><img src="https://nodeico.herokuapp.com/{pkg}.svg?compact=true"></a></textarea>'
+                   + '<textarea class="copyable" readonly>[![NPM](https://nodeico.herokuapp.com/{pkg}.svg?compact=true)](https://npmjs.com/package/{pkg})</textarea>'
           }
         , mini: {
               img  : '<img src="/npm/{pkg}.png?mini=true">'
-            , code : '<textarea class="copyable" readonly><a href="https://nodei.co/npm/{pkg}/"><img src="https://nodei.co/npm/{pkg}.png?mini=true"></a></textarea>'
-                   + '<textarea class="copyable" readonly>[![NPM](https://nodei.co/npm/{pkg}.png?mini=true)](https://nodei.co/npm/{pkg}/)</textarea>'
+            , code : '<textarea class="copyable" readonly><a href="https://npmjs.com/package/{pkg}"><img src="https://nodeico.herokuapp.com/{pkg}.svg?mini=true"></a></textarea>'
+                   + '<textarea class="copyable" readonly>[![NPM](https://nodeico.herokuapp.com/{pkg}.svg?mini=true)](https://npmjs.com/package/{pkg})</textarea>'
           }
         , dl: {
               img  : '<img src="/npm-dl/{pkg}.png{params}">'
-            , code : '<textarea class="copyable double" readonly><a href="https://nodei.co/npm/{pkg}/"><img src="https://nodei.co/npm-dl/{pkg}.png{params}"></a></textarea>'
-                   + '<textarea class="copyable double" readonly>[![NPM](https://nodei.co/npm-dl/{pkg}.png{params})](https://nodei.co/npm/{pkg}/)</textarea>'
+            , code : '<textarea class="copyable double" readonly><a href="https://npmjs.com/package/{pkg}"><img src="https://nodei.co/npm-dl/{pkg}.png{params}"></a></textarea>'
+                   + '<textarea class="copyable double" readonly>[![NPM](https://nodei.co/npm-dl/{pkg}.png{params})](https://npmjs.com/package/{pkg})</textarea>'
           }
       }
   
