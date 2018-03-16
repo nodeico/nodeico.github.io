@@ -80,8 +80,6 @@ code, .copyable {
   text-align: center;
 }
 #makemeone {
-  border: 1px solid rgb(230, 230, 230);
-  border-width: 1px 0;
   padding: 1em 0;
   margin-top: 2em;
 }
