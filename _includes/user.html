@@ -1,10 +1,7 @@
-{% extends 'layout.html' %}
-
-{% block head %}
-  {{ head|raw }}
-{% endblock %}
-
-{% block content %}
+---
+layout: default
+title: User
+---
 
 <h2>{{ user }}</h2>
 
@@ -12,15 +9,9 @@
 <h3 align="center">{{ pkg }}</h3>
 
 <div style="width: 540px; float: left; text-align: center;">
-  <img src="/npm/{{ pkg }}.png?downloads=true&downloadRank=true&stars=true" alt="{{ pkg }}">
-</div>
-
-<div style="width: 540px; float: left; text-align: center;">
-  <img src="/npm-dl/{{ pkg }}.png?height=3" alt="{{ pkg }}">
+  <a href="https://npmjs.com/package/{{ pkg }}">
+  <img src="https://nodeico.herokuapp.com/{{ pkg }}.svg" alt="{{ pkg }}"></a>
 </div>
 
 <div style="clear: both;"></div>
-
 {% endfor %}
-
-{% endblock %}
