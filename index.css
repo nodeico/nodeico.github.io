@@ -49,7 +49,7 @@ h1 {
 }
 .footer {
   margin-top: 3em;
-  padding-top: 1em;
+  padding: 2em 0;
   font-size: 0.8em;
   background-color: azure;
   text-align: center;
@@ -61,8 +61,6 @@ b {
   font-weight: 500;
 }
 code, .copyable {
-  font-family: "ubuntu-mono";
-  font-size: 90%;
   margin: 0 2px;
   padding: 2px 5px;
   border: 1px solid rgb(224, 224, 222);
@@ -70,8 +68,6 @@ code, .copyable {
   border-radius: 3px;
 }
 .copyable {
-  font-family: "ubuntu-mono" !important;
-  font-size: 90% !important;
   color: rgb(90, 90, 90) !important;
   width: 650px;
   height: 1.25em;
