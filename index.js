@@ -66,7 +66,19 @@
   }
   
   function packageExists (pkg, callback) {
-    callback(true)
+    $.ajax({
+        url: 'https://registry.npmjs.org/' + encodeURIComponent(pkg)
+      , type: 'json'
+      , method: 'get'
+      , error: function () {
+          callback && callback(false)
+          callback = null
+        }
+      , success: function (resp) {
+          callback && callback(resp.name == pkg)
+          callback = null
+        }
+    })
   }
   
   function dontmakemeone (pkg, valid) {
