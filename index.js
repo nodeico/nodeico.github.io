@@ -66,19 +66,7 @@
   }
   
   function packageExists (pkg, callback) {
-    $.ajax({
-        url: '/api/npm/info/' + pkg
-      , type: 'json'
-      , method: 'get'
-      , error: function () {
-          callback && callback(false)
-          callback = null
-        }
-      , success: function (resp) {
-          callback && callback(resp.name == pkg)
-          callback = null
-        }
-    })
+    callback(true)
   }
   
   function dontmakemeone (pkg, valid) {
