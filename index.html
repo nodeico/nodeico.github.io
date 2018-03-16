@@ -3,12 +3,6 @@ layout: default
 title: NodeICO
 ---
 
-{% block head %}
-  {{ head|raw }}
-{% endblock %}
-
-{% block content %}
-
 <div class="pure-g examples">
   <div class="pure-u-1-2">
     <p><a href="https://nodei.co/npm/express.png">https://nodei.co/npm/express.png</a></p>
@@ -36,17 +30,3 @@ title: NodeICO
 <p>Or in Markdown: <textarea class="copyable pure-u-2-5" readonly>[![NPM](https://nodei.co/npm/&lt;package&gt;.png)](https://nodei.co/npm/&lt;package&gt;/)</textarea></p>
 
 {% include makemeone.html %}
-
-<h2>Chrome Extension</h2>
-
-<p>Some people just don't <i>get it</i> and won't have NodeICO badges on their GitHub READMEs. You can fix this on your end by installing the <a href="https://chrome.google.com/webstore/detail/nodeico-npm-badges-for-gi/gjfoekeijnfcemfgihckkhhoiehljdmd">NodeICO Chrome Extension for GitHub</a> and have them placed on READMEs for Node.js projects that don't have them when you're browsing.</p>
-
-
-<div style="margin: 1em auto; text-align: center;">
-  <img src="nodeico-chrome-screenshot.png" style="height: 246px; width: 400px; box-shadow: 4px 4px 10px;">
-</div>
-
-<div style="clear: both;"></div>
-
-
-{% endblock %}
