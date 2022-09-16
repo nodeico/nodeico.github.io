@@ -1,15 +1,11 @@
 {
   "name": "nodeico.github.io",
-  "version": "0.0.54",
+  "version": "0.0.55",
   "description": "Display info card image for NPM packages (scoped).",
   "private": true,
   "main": "index.js",
   "scripts": {
     "test": "exit"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nodeico/nodeico.github.io.git"
   },
   "keywords": [
     "node",
@@ -21,6 +17,10 @@
   ],
   "author": "wolfram77@gmail.com",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodeico/nodeico.github.io.git"
+  },
   "bugs": {
     "url": "https://github.com/nodeico/nodeico.github.io/issues"
   },
